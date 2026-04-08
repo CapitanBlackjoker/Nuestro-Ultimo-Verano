@@ -14,7 +14,7 @@
   "manifest": "https://raw.githubusercontent.com/CapitanBlackjoker/nuestro-ultimo-verano/refs/heads/main/module.json",
   "download": "https://github.com/CapitanBlackjoker/nuestro-ultimo-verano/releases/download/v1.2.0/nuestro-ultimo-verano-v1.2.0.zip",
   "systems": ["custom-system-builder"],
-  "packs": [
+  "packs":  ["custom-system-builder"]
     {
       "name": "nuv-reglas",
       "label": "Nuestro Último Verano - Reglas y Lore",
