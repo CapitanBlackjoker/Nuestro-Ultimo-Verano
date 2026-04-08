@@ -1,0 +1,85 @@
+{
+  "name": "Nuestro Último Verano - Hoja Oficial",
+  "description": "Hoja completa con modificadores automáticos y botones de tirada - Preparada por CapitanBlackjoker",
+  "tabs": [
+    {
+      "id": "datos",
+      "label": "Datos del PJ",
+      "groups": [
+        {
+          "id": "basico",
+          "label": "Información básica",
+          "fields": [
+            { "id": "nombre", "type": "text", "label": "Nombre" },
+            { "id": "clase", "type": "select", "label": "Clase", "options": ["Bicho Raro", "Bromista", "Cerebrito", "Deportista", "Explorador/a", "Rebelde"] },
+            { "id": "edad", "type": "number", "label": "Edad (12-14)", "default": 13 },
+            { "id": "jugador", "type": "text", "label": "Jugador", "default": "CapitanBlackjoker" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atributos",
+      "label": "Atributos",
+      "groups": [
+        {
+          "id": "atributos",
+          "label": "Atributos y Modificadores (automáticos) + Botones de Tirada",
+          "fields": [
+            { "id": "fue", "type": "number", "label": "Fuerza", "default": 10 },
+            { "id": "mod_fue", "type": "number", "label": "Mod Fuerza", "formula": "floor((@fue - 10) / 2)", "hidden": false },
+            { "id": "tirada_fue", "type": "label", "label": "Tirada de Fuerza", "roll": "1d20 + @mod_fue", "rollLabel": "Fuerza" },
+
+            { "id": "des", "type": "number", "label": "Destreza", "default": 10 },
+            { "id": "mod_des", "type": "number", "label": "Mod Destreza", "formula": "floor((@des - 10) / 2)", "hidden": false },
+            { "id": "tirada_des", "type": "label", "label": "Tirada de Destreza", "roll": "1d20 + @mod_des", "rollLabel": "Destreza" },
+
+            { "id": "con", "type": "number", "label": "Constitución", "default": 10 },
+            { "id": "mod_con", "type": "number", "label": "Mod Constitución", "formula": "floor((@con - 10) / 2)", "hidden": false },
+            { "id": "tirada_con", "type": "label", "label": "Tirada de Constitución", "roll": "1d20 + @mod_con", "rollLabel": "Constitución" },
+
+            { "id": "int", "type": "number", "label": "Inteligencia", "default": 10 },
+            { "id": "mod_int", "type": "number", "label": "Mod Inteligencia", "formula": "floor((@int - 10) / 2)", "hidden": false },
+            { "id": "tirada_int", "type": "label", "label": "Tirada de Inteligencia", "roll": "1d20 + @mod_int", "rollLabel": "Inteligencia" },
+
+            { "id": "sab", "type": "number", "label": "Sabiduría", "default": 10 },
+            { "id": "mod_sab", "type": "number", "label": "Mod Sabiduría", "formula": "floor((@sab - 10) / 2)", "hidden": false },
+            { "id": "tirada_sab", "type": "label", "label": "Tirada de Sabiduría", "roll": "1d20 + @mod_sab", "rollLabel": "Sabiduría" },
+
+            { "id": "car", "type": "number", "label": "Carisma", "default": 10 },
+            { "id": "mod_car", "type": "number", "label": "Mod Carisma", "formula": "floor((@car - 10) / 2)", "hidden": false },
+            { "id": "tirada_car", "type": "label", "label": "Tirada de Carisma", "roll": "1d20 + @mod_car", "rollLabel": "Carisma" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combate",
+      "label": "Combate y Habilidades",
+      "groups": [
+        {
+          "id": "pv",
+          "label": "Puntos de Vida",
+          "fields": [
+            { "id": "pv_max", "type": "number", "label": "PV Máximos", "default": 6 },
+            { "id": "pv", "type": "number", "label": "PV Actuales", "default": 6 }
+          ]
+        },
+        {
+          "id": "especiales",
+          "label": "Habilidades y Talentos de Clase",
+          "fields": [
+            { "id": "habilidades_clase", "type": "textarea", "label": "Habilidades especiales de tu clase" }
+          ]
+        },
+        {
+          "id": "notas",
+          "label": "Equipo, Notas y Secretos",
+          "fields": [
+            { "id": "equipo", "type": "textarea", "label": "Equipo y Duros" }
+          ]
+        }
+      ]
+    }
+  ]
+}

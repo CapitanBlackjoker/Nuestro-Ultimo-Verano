@@ -1,0 +1,22 @@
+{
+  "name": "Alex el Bicho Raro",
+  "type": "character",
+  "system": {
+    "template": "Nuestro Último Verano - Hoja Oficial",
+    "nombre": "Álex Navarro",
+    "clase": "Bicho Raro",
+    "edad": 12,
+    "jugador": "CapitanBlackjoker",
+    "fue": 10,
+    "des": 9,
+    "con": 12,
+    "int": 14,
+    "sab": 15,
+    "car": 8,
+    "pv_max": 7,
+    "pv": 7,
+    "habilidades_clase": "Ventaja en detectar lo extraño, intuición y contacto con lo sobrenatural.\nA veces percibe cosas que los demás no ven.",
+    "equipo": "Walkie-talkie roto\nColección de cromos raros\nLinterna con filtro rojo\nFiguras de monstruos\n3 Duros"
+  },
+  "img": "icons/svg/mystery-man.svg"
+}

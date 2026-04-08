@@ -1,0 +1,22 @@
+{
+  "name": "Sara la Exploradora",
+  "type": "character",
+  "system": {
+    "template": "Nuestro Último Verano - Hoja Oficial",
+    "nombre": "Sara Morales",
+    "clase": "Explorador/a",
+    "edad": 13,
+    "jugador": "CapitanBlackjoker",
+    "fue": 12,
+    "des": 15,
+    "con": 11,
+    "int": 10,
+    "sab": 14,
+    "car": 9,
+    "pv_max": 7,
+    "pv": 7,
+    "habilidades_clase": "Ventaja en orientación, rastreo, sigilo en naturaleza y supervivencia.\nEncuentra caminos ocultos y pistas en el bosque con facilidad.",
+    "equipo": "Brújula y mapa viejo\nCuchillo suizo\nMochila con provisiones\nBinoculares\n3 Duros"
+  },
+  "img": "icons/svg/mystery-man.svg"
+}

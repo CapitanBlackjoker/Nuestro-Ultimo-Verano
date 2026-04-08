@@ -1,0 +1,22 @@
+{
+  "name": "Txus el Bromas",
+  "type": "character",
+  "system": {
+    "template": "Nuestro Último Verano - Hoja Oficial",
+    "nombre": "Txus (Jesús López)",
+    "clase": "Bromista",
+    "edad": 13,
+    "jugador": "CapitanBlackjoker",
+    "fue": 9,
+    "des": 14,
+    "con": 11,
+    "int": 12,
+    "sab": 8,
+    "car": 15,
+    "pv_max": 7,
+    "pv": 7,
+    "habilidades_clase": "Ventaja en tiradas de bromas, engaños y distracciones.\nUna vez por sesión puedes gastar 1 Duro para que una broma salga especialmente bien (el DJ decide el efecto).",
+    "equipo": "Petardos y globos de agua\nBolsa de gusanitos\nTirachinas casero\nCinta de casete con bromas grabadas\n3 Duros"
+  },
+  "img": "icons/svg/mystery-man.svg"
+}

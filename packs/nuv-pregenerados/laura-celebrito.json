@@ -1,0 +1,22 @@
+{
+  "name": "Laura la Cerebrito",
+  "type": "character",
+  "system": {
+    "template": "Nuestro Último Verano - Hoja Oficial",
+    "nombre": "Laura García",
+    "clase": "Cerebrito",
+    "edad": 12,
+    "jugador": "CapitanBlackjoker",
+    "fue": 8,
+    "des": 11,
+    "con": 10,
+    "int": 16,
+    "sab": 13,
+    "car": 9,
+    "pv_max": 6,
+    "pv": 6,
+    "habilidades_clase": "Ventaja en tiradas de conocimiento, resolver enigmas y usar aparatos.\nPuedes identificar objetos o criaturas extrañas con más facilidad.",
+    "equipo": "Linterna grande\nCuaderno de notas y lápices\nLibro de enigmas y ciencias\nCalculadora científica\n3 Duros"
+  },
+  "img": "icons/svg/mystery-man.svg"
+}

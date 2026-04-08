@@ -1,0 +1,32 @@
+{
+  "id": "nuestro-ultimo-verano",
+  "title": "Nuestro Último Verano",
+  "description": "Módulo completo para Custom System Builder - Hoja oficial con modificadores automáticos y botones de tirada. Preparado por CapitanBlackjoker.",
+  "version": "1.2.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "CapitanBlackjoker"
+    }
+  ],
+  "systems": ["custom-system-builder"],
+  "packs": [
+    {
+      "name": "nuv-reglas",
+      "label": "Nuestro Último Verano - Reglas y Lore",
+      "path": "packs/nuv-reglas",
+      "type": "JournalEntry",
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "nuv-pregenerados",
+      "label": "Personajes Pregenerados (La Tropa)",
+      "path": "packs/nuv-pregenerados",
+      "type": "Actor",
+      "system": "custom-system-builder"
+    }
+  ]
+}

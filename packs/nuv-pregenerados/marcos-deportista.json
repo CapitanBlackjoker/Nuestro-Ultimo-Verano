@@ -1,0 +1,22 @@
+{
+  "name": "Marcos el Deportista",
+  "type": "character",
+  "system": {
+    "template": "Nuestro Último Verano - Hoja Oficial",
+    "nombre": "Marcos Ruiz",
+    "clase": "Deportista",
+    "edad": 14,
+    "jugador": "CapitanBlackjoker",
+    "fue": 15,
+    "des": 13,
+    "con": 14,
+    "int": 9,
+    "sab": 10,
+    "car": 11,
+    "pv_max": 8,
+    "pv": 8,
+    "habilidades_clase": "Ventaja en tiradas físicas (correr, saltar, lanzar, empujar).\nResistencia extra: una vez por sesión ignora 1 punto de daño.",
+    "equipo": "Pelota de fútbol\nRaqueta de tenis\nZapatillas deportivas\nGorra de los Lakers\n3 Duros"
+  },
+  "img": "icons/svg/mystery-man.svg"
+}
